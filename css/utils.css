@@ -3,3 +3,17 @@
     justify-content: center;
     align-items: center;
 }
+
+.btn{
+    padding: 0.5rem;
+    height:36px;
+    border-style: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color:var(--main-bg-color) ;
+}
+
+.btn:hover{
+   background-color: var(--primary-color);
+   border-color:var(--primary-color);
+}
